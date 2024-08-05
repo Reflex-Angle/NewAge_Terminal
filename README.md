@@ -23,52 +23,61 @@ After a few test runs, we will be able to gain more insights and feedback to upg
 
 # High Level Design
 
-Window made using tkinter with components from customtkinter.
+- Window made using tkinter with components from customtkinter.
 
-Contains a button to run the inputted  commands and a help button to display preprogrammed commands and their descriptions.
+- Contains a button to run the inputted  commands and a help button to display preprogrammed commands and their descriptions.
 
-Contains a button to toggle between dark and light mode.
+- Contains a button to toggle between dark and light mode.
 
-Terminal View: Main window of the terminal. 
+- Terminal View: Main window of the terminal. 
 
-Command is extracted from the command line and processed to provide an output in the terminal window.
+- Command is extracted from the command line and processed to provide an output in the terminal window.
 
-History View: Previously run commands are stored here using an array
+- History View: Previously run commands are stored here using an array
 
-Help window: Comprehensive documentation explaining each command line function with their respective usages.
+- Help window: Comprehensive documentation explaining each command line function with their respective usages.
 
-Directory: Contains a sub window to display the current working directory
+- Directory: Contains a sub window to display the current working directory
 
-Widgets to display dynamic CPU and memory utilisation metrics. Additionally, multithreading is used to provide concurrency
+- Widgets to display dynamic CPU and memory utilisation metrics. Additionally, multithreading is used to provide concurrency
 
-Scalability: Scope for addition of customisable commands to suit the user’s personal requirements
+- Scalability: Scope for addition of customisable commands to suit the user’s personal requirements
 
 # What's the point?
 
 ### Terminal (command-line) programming seems dry, but it remains highly relevant in the software realm.
 
-Terminal programs are universally compatible across different operating systems.
+- Terminal programs are universally compatible across different operating systems.
 
-Scripting is done best on terminal shells and this design helps programmers have an amazing experience with it.
+- Scripting is done best on terminal shells and this design helps programmers have an amazing experience with it.
 
 ### TermEZ is EZ:
 
-This terminal design greatly improves the comprehensibility of shell programming.
+- This terminal design greatly improves the comprehensibility of shell programming.
 
-Learning curve smoothened for beginners and terminal programming is more appealing.
+- Learning curve smoothened for beginners and terminal programming is more appealing.
 
 ### TermEZ is EZ.2:
 
-This terminal also appeals to advanced programmers with many more features, metric displays and customizations.
+- This terminal also appeals to advanced programmers with many more features, metric displays and customizations.
 
-The elegant design and potential customization just contributes to an overall improvement in user experience.
+- The elegant design and potential customization just contributes to an overall improvement in user experience.
 
 ### Command line familiarity:
 
-Command-line engineering is a crucial skill and being familiar with necessary commands is invaluable. With the help of easy comprehension and a command helpdesk available in the terminal, it is easy to get familiar.
+- Command-line engineering is a crucial skill and being familiar with necessary commands is invaluable. With the help of easy comprehension and a command helpdesk available in the terminal, it is easy to get familiar.
 
 # User Guide and Help
 
 Please refer to the file 'TermEZ Final PPT' for a detailed look into this project including low level design, modules and function set.
+
+# Contributors:
+
+- Sriram B. Swami
+
+- AO Navin Kumar
+
+- Meghna Varma
+
 
 ## Thank you :D
